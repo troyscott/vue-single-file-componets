@@ -1,5 +1,8 @@
 <template>
   <div>
+    <h1>Animations</h1>
+      <animate-me></animate-me>
+    <hr>
     <h1>Slots</h1>
     <message>
       <h2>What are you doing today?</h2>
@@ -11,11 +14,13 @@
     <hr>
     <message></message>
     <hr><br>
+
     <h1>Event Bus using a SFC</h1>
     <shopping-input></shopping-input>    
     <shopping-list :shoppingList="shoppingList"></shopping-list>
     <button @click="stopListening()">Stop Listening</button>
     <hr><br>
+
     <h1>Props and Emit using a SFC</h1>
     <fancy-button 
       button-text="Click Me!"
@@ -33,13 +38,15 @@
 import ShoppingInput from './components/ShoppingInput';
 import ShoppingList from './components/ShoppingList';
 import Message from './components/Message';
+import AnimateMe from './components/AnimateMe';
 import EventBus from './EventBus';
 
 export default {
     components: {
       ShoppingInput,
       ShoppingList,
-      Message
+      Message,
+      AnimateMe
     },
     data() {
       return {
