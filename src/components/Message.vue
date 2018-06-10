@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>This is part of the message component</h1>
-    <slot></slot>
+    <slot>
+      <h2>Default heading for the slot</h2>
+    </slot>
   </div>
 </template>
 

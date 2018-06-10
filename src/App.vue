@@ -4,9 +4,12 @@
     <message>
       <h2>What are you doing today?</h2>
     </message>
+    <hr>
     <message>
       <h2>Learning about Vue.js!</h2>
     </message>
+    <hr>
+    <message></message>
     <hr><br>
     <h1>Event Bus using a SFC</h1>
     <shopping-input></shopping-input>    
